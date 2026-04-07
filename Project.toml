@@ -2,3 +2,9 @@ name = "Icebergs"
 uuid = "c2b2959a-8f7c-41ca-baf9-6fc367f6938f"
 version = "0.1.0"
 authors = ["oscarjtg <78657968+oscarjtg@users.noreply.github.com>"]
+
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+[compat]
+Documenter = "1.17.0"
