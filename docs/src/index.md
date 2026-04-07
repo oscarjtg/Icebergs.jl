@@ -1,5 +1,7 @@
 # Icebergs.jl Documentation
 
+A package for simulating iceberg dynamics.
+
 ```@contents
 ```
 
