@@ -17,4 +17,4 @@ julia> ocean = default_ocean()
 Ocean(1025.0, 0.0)
 ```
 """
-default_ocean() = Ocean(1025.0, 0.0)
+default_ocean() = Ocean(1030.0, 0.0)

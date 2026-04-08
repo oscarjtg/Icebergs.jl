@@ -9,11 +9,11 @@ mutable struct Iceberg2D
 end
 
 """
-    Iceberg2D(shape::Polygon, length, density)
+    Iceberg2D(shape::Polygon, length, density=920.0)
 
 Construct an Iceberg2D object.
 """
-function Iceberg2D(shape::Polygon, length, density=930.0)
+function Iceberg2D(shape::Polygon, length, density=920.0)
     vertices = deepcopy(shape)
     Iceberg2D(shape, 0.0, 0.0, 0.0, vertices, density, length)
 end
