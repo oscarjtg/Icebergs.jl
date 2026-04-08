@@ -5,6 +5,7 @@ export
     area, centroid,
 
     Iceberg2D,
+    potential_energy, update_vertices!
 
     Ocean
 
