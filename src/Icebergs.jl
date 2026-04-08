@@ -7,7 +7,8 @@ export
     Iceberg2D,
     potential_energy, update_vertices!,
 
-    Ocean
+    Ocean,
+    default_ocean
 
 include("ocean.jl")
 include("polygon.jl")
